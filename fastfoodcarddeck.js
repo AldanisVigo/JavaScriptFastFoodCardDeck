@@ -265,6 +265,7 @@ $(document).ready(function(){
 	//Get a reference to the canvas from the DOM
 	const canvas = document.getElementById('blackjack')
 	const body = document.getElementsByTagName('body')
+	$(body).prepend("<p>Made using HTML5 canvas and JavaScript</p>")
 	$(body).prepend("<p>By: Aldanis Vigo [aldanisvigo@gmail.com]</p>")
 	$(body).prepend("<h1>Fast Food Card Deck</h1>")
 	//Change the body background color to grey
